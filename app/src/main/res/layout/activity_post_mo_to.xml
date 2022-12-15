@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+
+        android:text="ADD"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name" />
+
+    <EditText
+        android:id="@+id/ed_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="image" />
+
+    <EditText
+        android:id="@+id/ed_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="price" />
+
+    <EditText
+        android:id="@+id/ed_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="color" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
+</LinearLayout>
